@@ -129,7 +129,6 @@ def send_request(type, city_id=0, district_id=0, neighborhood_id=0, school_id=0)
     DISTRICTS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities/{city_id}/districts"
     NEIGHBORHOODS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities/{city_id}/districts/{district_id}/neighborhoods"
     SCHOOLS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities/{city_id}/districts/{district_id}/neighborhoods/{neighborhood_id}/schools"
-    SANDIKS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/submission/school/{school_id}"
 
     if type == AreaType.CITY:
         url = CITIES_URL
@@ -139,8 +138,6 @@ def send_request(type, city_id=0, district_id=0, neighborhood_id=0, school_id=0)
         url = NEIGHBORHOODS_URL
     elif type == AreaType.SCHOOL:
         url = SCHOOLS_URL
-    elif type == AreaType.SANDIK:
-        url = SANDIKS_URL
     else:
         print("Error: type is not valid")
         exit(1)
