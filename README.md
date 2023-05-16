@@ -28,6 +28,13 @@ Enter school id: 184742
 # Check sample/school_184742.json for sample output
 ```
 
+# To get bulk results
+```console
+python bulk_tutanak.py
+Enter city json path: ANTALYA.json
+# In this case, results will be written to data/7/school_{30535, 30529, 30540, ...}.json
+```
+
 # Notes
 `SLEEP_TIME = 1` in `main.py` and `tutanak.py` is the sleep time between requests. You can change it if you want.
 
