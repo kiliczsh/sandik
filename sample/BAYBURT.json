@@ -1,0 +1,3067 @@
+{
+    "id": 65,
+    "name": "BAYBURT",
+    "plate": 69,
+    "districts": [
+        {
+            "id": 818,
+            "name": "AYDINTEPE",
+            "city_id": 65,
+            "neighborhoods": [
+                {
+                    "id": 42049,
+                    "name": "AHMET YESEVİ MAH.",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48483,
+                            "name": "AYDINTEPE BELEDİYESİ SPOR LOKALİ",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42049
+                        }
+                    ]
+                },
+                {
+                    "id": 42056,
+                    "name": "AKBULUT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48490,
+                            "name": "AKBULUT İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42056
+                        }
+                    ]
+                },
+                {
+                    "id": 42054,
+                    "name": "ALACA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48488,
+                            "name": "ALACA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42054
+                        }
+                    ]
+                },
+                {
+                    "id": 42045,
+                    "name": "AŞAĞIKIRZI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48479,
+                            "name": "AŞAĞIKIRZI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42045
+                        }
+                    ]
+                },
+                {
+                    "id": 42055,
+                    "name": "BAŞPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48489,
+                            "name": "BAŞPINAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42055
+                        }
+                    ]
+                },
+                {
+                    "id": 42048,
+                    "name": "ÇATIKSU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48482,
+                            "name": "ÇATIKSU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42048
+                        }
+                    ]
+                },
+                {
+                    "id": 42043,
+                    "name": "ÇAYIRKÖPRÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48477,
+                            "name": "ÇAYIRKÖPRÜ ŞEHİT MURAT SANCAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42043
+                        }
+                    ]
+                },
+                {
+                    "id": 42058,
+                    "name": "ÇİĞDEMLİK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48492,
+                            "name": "ÇİĞDEMLİK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42058
+                        }
+                    ]
+                },
+                {
+                    "id": 42050,
+                    "name": "DUMLU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48484,
+                            "name": "DUMLU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42050
+                        }
+                    ]
+                },
+                {
+                    "id": 42065,
+                    "name": "ERİKDİBİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48499,
+                            "name": "ERİKDİBİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42065
+                        }
+                    ]
+                },
+                {
+                    "id": 42051,
+                    "name": "GÜMÜŞDAMLA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48485,
+                            "name": "GÜMÜŞDAMLA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42051
+                        }
+                    ]
+                },
+                {
+                    "id": 42061,
+                    "name": "GÜNBULDU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48495,
+                            "name": "GÜNBULDU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42061
+                        }
+                    ]
+                },
+                {
+                    "id": 42062,
+                    "name": "HACI ALİ EFENDİ MAH.",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48496,
+                            "name": "AYDINTEPE ÇOK PROGRAMLI ANADOLU LİSESİ",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42062
+                        }
+                    ]
+                },
+                {
+                    "id": 42052,
+                    "name": "İNCİLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48486,
+                            "name": "ŞEHİT KAZIM YAZAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42052
+                        }
+                    ]
+                },
+                {
+                    "id": 42059,
+                    "name": "KALE MAH.",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48493,
+                            "name": "ŞEHİT OKTAY ALTUNTAŞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42059
+                        }
+                    ]
+                },
+                {
+                    "id": 42063,
+                    "name": "KAVLATAN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48497,
+                            "name": "KAVLATAN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42063
+                        }
+                    ]
+                },
+                {
+                    "id": 42064,
+                    "name": "KILIÇKAYA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48498,
+                            "name": "KILIÇKAYA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42064
+                        }
+                    ]
+                },
+                {
+                    "id": 42057,
+                    "name": "PINARGÖZÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48491,
+                            "name": "PINARGÖZÜ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42057
+                        }
+                    ]
+                },
+                {
+                    "id": 42044,
+                    "name": "ŞALCILAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48478,
+                            "name": "ŞALCILAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42044
+                        }
+                    ]
+                },
+                {
+                    "id": 42041,
+                    "name": "SIRATAŞLAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48475,
+                            "name": "SIRATAŞLAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42041
+                        }
+                    ]
+                },
+                {
+                    "id": 42046,
+                    "name": "SORKUNLU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48480,
+                            "name": "SORKUNLU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42046
+                        }
+                    ]
+                },
+                {
+                    "id": 42066,
+                    "name": "SULUDERE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48500,
+                            "name": "SULUDERE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42066
+                        }
+                    ]
+                },
+                {
+                    "id": 42060,
+                    "name": "YAKUDİYE MAH.",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48494,
+                            "name": "ŞEHİT ERDAL ERASLAN ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42060
+                        }
+                    ]
+                },
+                {
+                    "id": 42042,
+                    "name": "YANOBA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48476,
+                            "name": "YANOBA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42042
+                        }
+                    ]
+                },
+                {
+                    "id": 42053,
+                    "name": "YAPRACIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48487,
+                            "name": "YAPRACIK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42053
+                        }
+                    ]
+                },
+                {
+                    "id": 42047,
+                    "name": "YAZLIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48481,
+                            "name": "YAZLIK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42047
+                        }
+                    ]
+                },
+                {
+                    "id": 42040,
+                    "name": "YUKARIKIRZI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 818,
+                    "schools": [
+                        {
+                            "id": 48474,
+                            "name": "ŞEHİT MUAMMER GÜR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 818,
+                            "neighborhood_id": 42040
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 819,
+            "name": "BAYBURT MERKEZ",
+            "city_id": 65,
+            "neighborhoods": [
+                {
+                    "id": 42157,
+                    "name": "ADABAŞI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48599,
+                            "name": "ADABAŞI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42157
+                        }
+                    ]
+                },
+                {
+                    "id": 42107,
+                    "name": "AĞÖREN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48544,
+                            "name": "AĞÖREN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42107
+                        }
+                    ]
+                },
+                {
+                    "id": 42119,
+                    "name": "AKÇAKUZU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48558,
+                            "name": "AKÇAKUZU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42119
+                        }
+                    ]
+                },
+                {
+                    "id": 42092,
+                    "name": "AKDURAN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48528,
+                            "name": "AKDURAN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42092
+                        }
+                    ]
+                },
+                {
+                    "id": 42101,
+                    "name": "AKSAÇLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48537,
+                            "name": "AKSAÇLI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42101
+                        }
+                    ]
+                },
+                {
+                    "id": 42077,
+                    "name": "AKŞAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48512,
+                            "name": "AKŞAR GENÇOSMAN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42077
+                        }
+                    ]
+                },
+                {
+                    "id": 42181,
+                    "name": "ALAPELİT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48623,
+                            "name": "ALAPELİT KÖYÜ YEMEKHANESİ",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42181
+                        }
+                    ]
+                },
+                {
+                    "id": 42169,
+                    "name": "ALIÇLIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48611,
+                            "name": "ALIÇLIK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42169
+                        }
+                    ]
+                },
+                {
+                    "id": 42143,
+                    "name": "ARDIÇGÖZE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48584,
+                            "name": "ARDIÇGÖZE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42143
+                        }
+                    ]
+                },
+                {
+                    "id": 42189,
+                    "name": "ARMUTLU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48631,
+                            "name": "ARMUTLU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42189
+                        }
+                    ]
+                },
+                {
+                    "id": 42134,
+                    "name": "ARPALI-ÇİÇEKLİ MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 142766,
+                            "name": "ÇİÇEKLİ KÖY KONAĞI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42134
+                        }
+                    ]
+                },
+                {
+                    "id": 42072,
+                    "name": "ARPALI-CUMHURİYET MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48507,
+                            "name": "ARPALI Ş.FATİH KOSTİK İMAM HATİP ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42072
+                        }
+                    ]
+                },
+                {
+                    "id": 42098,
+                    "name": "ARPALI-HÜRRİYET MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 143741,
+                            "name": "ARPALI Ş.FATİH KOSTİK İMAM HATİP ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42098
+                        }
+                    ]
+                },
+                {
+                    "id": 42182,
+                    "name": "ARSLANDEDE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48624,
+                            "name": "ARSLANDEDE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42182
+                        }
+                    ]
+                },
+                {
+                    "id": 42173,
+                    "name": "AŞAĞIÇIMAĞIL KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48615,
+                            "name": "AŞAĞI ÇIMAĞIL KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42173
+                        }
+                    ]
+                },
+                {
+                    "id": 42147,
+                    "name": "AŞAĞIKIŞLAK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48588,
+                            "name": "AŞAĞI KIŞLAK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42147
+                        }
+                    ]
+                },
+                {
+                    "id": 42199,
+                    "name": "AŞAĞIPINARLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48643,
+                            "name": "AŞAĞI PINARLI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42199
+                        }
+                    ]
+                },
+                {
+                    "id": 42106,
+                    "name": "AYDINCIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48543,
+                            "name": "AYDINCIK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42106
+                        }
+                    ]
+                },
+                {
+                    "id": 42073,
+                    "name": "BALCA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48508,
+                            "name": "BALCA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42073
+                        }
+                    ]
+                },
+                {
+                    "id": 42177,
+                    "name": "BALKAYNAK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48619,
+                            "name": "BALKAYNAK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42177
+                        }
+                    ]
+                },
+                {
+                    "id": 42174,
+                    "name": "BALLIKAYA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48616,
+                            "name": "BALLIKAYA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42174
+                        }
+                    ]
+                },
+                {
+                    "id": 42190,
+                    "name": "BAŞÇIMAĞIL KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 178835,
+                            "name": "BAŞÇIMAĞIL-DEREÇIMAĞIL KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42190
+                        },
+                        {
+                            "id": 146895,
+                            "name": "BAŞÇIMAĞIL KÖY KONAĞI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42190
+                        }
+                    ]
+                },
+                {
+                    "id": 42196,
+                    "name": "BAYIRTEPE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48639,
+                            "name": "BAYIRTEPE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42196
+                        }
+                    ]
+                },
+                {
+                    "id": 42175,
+                    "name": "BAYRAKTAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48617,
+                            "name": "BAYRAKTAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42175
+                        }
+                    ]
+                },
+                {
+                    "id": 42170,
+                    "name": "BUĞDAYLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48612,
+                            "name": "BUĞDAYLI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42170
+                        }
+                    ]
+                },
+                {
+                    "id": 42138,
+                    "name": "ÇAKIRBAĞ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48579,
+                            "name": "ÇAKIRBAĞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42138
+                        }
+                    ]
+                },
+                {
+                    "id": 42109,
+                    "name": "ÇALIDERE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48546,
+                            "name": "ÇALIDERE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42109
+                        }
+                    ]
+                },
+                {
+                    "id": 42076,
+                    "name": "ÇAMDERE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48511,
+                            "name": "ÇAMDERE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42076
+                        }
+                    ]
+                },
+                {
+                    "id": 42139,
+                    "name": "CAMİİKEBİR MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 143956,
+                            "name": "CUMHURİYET İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42139
+                        }
+                    ]
+                },
+                {
+                    "id": 42097,
+                    "name": "ÇAMLIKOZ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48533,
+                            "name": "ÇAMLIKOZ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42097
+                        }
+                    ]
+                },
+                {
+                    "id": 42133,
+                    "name": "ÇAYIRÖZÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48574,
+                            "name": "ÇAYIRÖZÜ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42133
+                        }
+                    ]
+                },
+                {
+                    "id": 42103,
+                    "name": "ÇAYIRYOLU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48539,
+                            "name": "ŞEHİT METE OKUR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42103
+                        }
+                    ]
+                },
+                {
+                    "id": 42145,
+                    "name": "ÇERÇİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48586,
+                            "name": "ÇERÇİ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42145
+                        }
+                    ]
+                },
+                {
+                    "id": 42194,
+                    "name": "ÇİĞDEMTEPE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48637,
+                            "name": "ÇİĞDEMTEPE ARAS KARGO İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42194
+                        }
+                    ]
+                },
+                {
+                    "id": 42071,
+                    "name": "ÇORAK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48506,
+                            "name": "ÇORAK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42071
+                        }
+                    ]
+                },
+                {
+                    "id": 42084,
+                    "name": "DAĞÇATI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48520,
+                            "name": "DAĞÇATI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42084
+                        }
+                    ]
+                },
+                {
+                    "id": 42099,
+                    "name": "DAĞTARLA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48535,
+                            "name": "DAĞTARLA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42099
+                        }
+                    ]
+                },
+                {
+                    "id": 42172,
+                    "name": "DANİŞMENT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48614,
+                            "name": "DANİŞMENT İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42172
+                        }
+                    ]
+                },
+                {
+                    "id": 42110,
+                    "name": "DARICA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48547,
+                            "name": "DARICA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42110
+                        }
+                    ]
+                },
+                {
+                    "id": 42192,
+                    "name": "DEĞİRMENCİK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48635,
+                            "name": "DEĞİRMENCİK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42192
+                        }
+                    ]
+                },
+                {
+                    "id": 42135,
+                    "name": "DEMİRIŞIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48576,
+                            "name": "DEMİRIŞIK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42135
+                        }
+                    ]
+                },
+                {
+                    "id": 42171,
+                    "name": "DEMİRKAŞ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48613,
+                            "name": "DEMİRKAŞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42171
+                        }
+                    ]
+                },
+                {
+                    "id": 42151,
+                    "name": "DİKMETAŞ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 144021,
+                            "name": "DİKMETAŞ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42151
+                        }
+                    ]
+                },
+                {
+                    "id": 42074,
+                    "name": "DÖVMEKAYA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48509,
+                            "name": "DÖVMEKAYA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42074
+                        }
+                    ]
+                },
+                {
+                    "id": 42127,
+                    "name": "ERENLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48568,
+                            "name": "ERENLİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42127
+                        }
+                    ]
+                },
+                {
+                    "id": 42080,
+                    "name": "ESENTEPE MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 143142,
+                            "name": "HALK EĞİTİM MERKEZİ VE ASO",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42080
+                        },
+                        {
+                            "id": 48515,
+                            "name": "ŞEHİT NEVZAT KAYA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42080
+                        }
+                    ]
+                },
+                {
+                    "id": 42191,
+                    "name": "GENÇOSMAN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48633,
+                            "name": "GENÇOSMAN GENÇAĞA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42191
+                        },
+                        {
+                            "id": 48634,
+                            "name": "GENÇOSMAN KÖYÜ CAMİİ",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42191
+                        }
+                    ]
+                },
+                {
+                    "id": 42067,
+                    "name": "GENÇOSMAN MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 142082,
+                            "name": "ŞEHİT SEBAHATTİN BOZO ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42067
+                        }
+                    ]
+                },
+                {
+                    "id": 42128,
+                    "name": "GEZ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48569,
+                            "name": "GEZ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42128
+                        }
+                    ]
+                },
+                {
+                    "id": 42166,
+                    "name": "GÖKÇELİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48608,
+                            "name": "GÖKÇELİ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42166
+                        }
+                    ]
+                },
+                {
+                    "id": 42100,
+                    "name": "GÖKLER KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48536,
+                            "name": "GÖKLER KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42100
+                        }
+                    ]
+                },
+                {
+                    "id": 42165,
+                    "name": "GÖKPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48607,
+                            "name": "GÖKPINAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42165
+                        }
+                    ]
+                },
+                {
+                    "id": 42081,
+                    "name": "GÖLDERE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48517,
+                            "name": "GÖLDERE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42081
+                        }
+                    ]
+                },
+                {
+                    "id": 42148,
+                    "name": "GÖLOBA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48589,
+                            "name": "GÖLOBA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42148
+                        }
+                    ]
+                },
+                {
+                    "id": 42068,
+                    "name": "GÜDER KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48502,
+                            "name": "GÜDER KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42068
+                        }
+                    ]
+                },
+                {
+                    "id": 42202,
+                    "name": "GÜLLÜCE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48647,
+                            "name": "GÜLLÜCE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42202
+                        }
+                    ]
+                },
+                {
+                    "id": 42078,
+                    "name": "GÜMÜŞSU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48513,
+                            "name": "GÜMÜŞSU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42078
+                        }
+                    ]
+                },
+                {
+                    "id": 42197,
+                    "name": "GÜNEYDERE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48641,
+                            "name": "GÜNEYDERE-ERENLER KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42197
+                        },
+                        {
+                            "id": 48640,
+                            "name": "GÜNEYDERE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42197
+                        }
+                    ]
+                },
+                {
+                    "id": 42184,
+                    "name": "GÜZELCE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48626,
+                            "name": "GÜZELCE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42184
+                        }
+                    ]
+                },
+                {
+                    "id": 42162,
+                    "name": "HACIOĞLU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48604,
+                            "name": "HACIOĞLU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42162
+                        }
+                    ]
+                },
+                {
+                    "id": 42163,
+                    "name": "HALFİKALE (KALEARDI) MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48605,
+                            "name": "KALEARDI ŞEHİT HALİLTÜRKOĞLU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42163
+                        }
+                    ]
+                },
+                {
+                    "id": 42095,
+                    "name": "HARMANÖZÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48531,
+                            "name": "HARMANÖZÜ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42095
+                        }
+                    ]
+                },
+                {
+                    "id": 42120,
+                    "name": "HELVA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 143744,
+                            "name": "HELVA KÖY KONAĞI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42120
+                        }
+                    ]
+                },
+                {
+                    "id": 42079,
+                    "name": "HEYBETEPE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 142630,
+                            "name": "HEYBETEPE KÖY KONAĞI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42079
+                        }
+                    ]
+                },
+                {
+                    "id": 42093,
+                    "name": "IĞDIR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48529,
+                            "name": "IĞDIR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42093
+                        }
+                    ]
+                },
+                {
+                    "id": 42113,
+                    "name": "KABAÇAYIR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48550,
+                            "name": "KABAÇAYIR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42113
+                        }
+                    ]
+                },
+                {
+                    "id": 42158,
+                    "name": "KADIZADE MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 143964,
+                            "name": "ŞAİR ZİHNİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42158
+                        }
+                    ]
+                },
+                {
+                    "id": 42096,
+                    "name": "KARASAKAL MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48532,
+                            "name": "21 ŞUBAT KURTULUŞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42096
+                        }
+                    ]
+                },
+                {
+                    "id": 42183,
+                    "name": "KARLICA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48625,
+                            "name": "KARLICA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42183
+                        }
+                    ]
+                },
+                {
+                    "id": 42129,
+                    "name": "KARŞIGEÇİT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48570,
+                            "name": "KARŞIGEÇİT İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42129
+                        }
+                    ]
+                },
+                {
+                    "id": 42164,
+                    "name": "KAVACIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48606,
+                            "name": "KAVACIK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42164
+                        }
+                    ]
+                },
+                {
+                    "id": 42121,
+                    "name": "KAVAKYANI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48560,
+                            "name": "KAVAKYANI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42121
+                        }
+                    ]
+                },
+                {
+                    "id": 42136,
+                    "name": "KEMERTAŞ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48577,
+                            "name": "KEMERTAŞ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42136
+                        }
+                    ]
+                },
+                {
+                    "id": 42122,
+                    "name": "KIRATLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48561,
+                            "name": "KIRATLI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42122
+                        }
+                    ]
+                },
+                {
+                    "id": 42089,
+                    "name": "KIRKPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48525,
+                            "name": "KIRKPINAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42089
+                        }
+                    ]
+                },
+                {
+                    "id": 42075,
+                    "name": "KİTRE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48510,
+                            "name": "KİTRE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42075
+                        }
+                    ]
+                },
+                {
+                    "id": 42159,
+                    "name": "KOÇBAYIR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48601,
+                            "name": "KOÇBAYIR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42159
+                        }
+                    ]
+                },
+                {
+                    "id": 42123,
+                    "name": "KONURSU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48562,
+                            "name": "MİLLİ EĞİTİM VAKFI KONURSU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42123
+                        }
+                    ]
+                },
+                {
+                    "id": 42198,
+                    "name": "KOP KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48642,
+                            "name": "AŞAĞIKOP DÜĞÜN SALONU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42198
+                        }
+                    ]
+                },
+                {
+                    "id": 42149,
+                    "name": "KOPUZ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48590,
+                            "name": "KOPUZ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42149
+                        }
+                    ]
+                },
+                {
+                    "id": 42160,
+                    "name": "KOZLUK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48602,
+                            "name": "KOZLUK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42160
+                        }
+                    ]
+                },
+                {
+                    "id": 42153,
+                    "name": "KURBANPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48595,
+                            "name": "KURBANPINAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42153
+                        }
+                    ]
+                },
+                {
+                    "id": 42085,
+                    "name": "KURUGÜNEY KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48521,
+                            "name": "KURUGÜNEY KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42085
+                        }
+                    ]
+                },
+                {
+                    "id": 42161,
+                    "name": "MADEN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48603,
+                            "name": "MADEN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42161
+                        }
+                    ]
+                },
+                {
+                    "id": 42086,
+                    "name": "MANAS KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48522,
+                            "name": "MANAS KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42086
+                        }
+                    ]
+                },
+                {
+                    "id": 42069,
+                    "name": "MASAT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48503,
+                            "name": "MASAT DEDEKORKUT İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42069
+                        }
+                    ]
+                },
+                {
+                    "id": 42144,
+                    "name": "MEHMET ÇELEBİ MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48585,
+                            "name": "ŞAİR ZİHNİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42144
+                        }
+                    ]
+                },
+                {
+                    "id": 42179,
+                    "name": "MUTLU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48621,
+                            "name": "MUTLU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42179
+                        }
+                    ]
+                },
+                {
+                    "id": 42114,
+                    "name": "NİŞANTAŞI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48551,
+                            "name": "NİŞANTAŞI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42114
+                        }
+                    ]
+                },
+                {
+                    "id": 42156,
+                    "name": "ÖRENCE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48598,
+                            "name": "T.O.B.B.ÖRENCE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42156
+                        }
+                    ]
+                },
+                {
+                    "id": 42140,
+                    "name": "ORTAÇIMAĞIL KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48581,
+                            "name": "ORTAÇIMAĞIL İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42140
+                        }
+                    ]
+                },
+                {
+                    "id": 42130,
+                    "name": "ORUÇBEYLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48571,
+                            "name": "ORUÇBEYLİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42130
+                        }
+                    ]
+                },
+                {
+                    "id": 42185,
+                    "name": "OZANSU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": []
+                },
+                {
+                    "id": 42146,
+                    "name": "PAMUKTAŞ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48587,
+                            "name": "PAMUKTAŞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42146
+                        }
+                    ]
+                },
+                {
+                    "id": 42111,
+                    "name": "PELİTLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48548,
+                            "name": "PELİTLİ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42111
+                        }
+                    ]
+                },
+                {
+                    "id": 42167,
+                    "name": "PETEKKAYA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48609,
+                            "name": "PETEKKAYA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42167
+                        }
+                    ]
+                },
+                {
+                    "id": 42186,
+                    "name": "POLATLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48628,
+                            "name": "POLATLI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42186
+                        }
+                    ]
+                },
+                {
+                    "id": 42178,
+                    "name": "RÜŞTÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48620,
+                            "name": "RÜŞTÜ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42178
+                        }
+                    ]
+                },
+                {
+                    "id": 42090,
+                    "name": "SAKIZLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48526,
+                            "name": "SAKIZLI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42090
+                        }
+                    ]
+                },
+                {
+                    "id": 42112,
+                    "name": "SALKIMSU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48549,
+                            "name": "SALKIMSU KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42112
+                        }
+                    ]
+                },
+                {
+                    "id": 42176,
+                    "name": "SANCAKTEPE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48618,
+                            "name": "SANCAKTEPE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42176
+                        }
+                    ]
+                },
+                {
+                    "id": 42150,
+                    "name": "SARAYCIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48591,
+                            "name": "SARAYCIK Ş.B.ALTUNSOY İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42150
+                        }
+                    ]
+                },
+                {
+                    "id": 42141,
+                    "name": "SARIHAN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48582,
+                            "name": "SARIHAN KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42141
+                        }
+                    ]
+                },
+                {
+                    "id": 42131,
+                    "name": "SARIMEŞE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48572,
+                            "name": "SARIMEŞE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42131
+                        }
+                    ]
+                },
+                {
+                    "id": 42091,
+                    "name": "SEYDİYAKUP KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48527,
+                            "name": "SEYDİYAKUP KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42091
+                        }
+                    ]
+                },
+                {
+                    "id": 42142,
+                    "name": "ŞEYHHAYRAN MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 142068,
+                            "name": "CUMHURİYET İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42142
+                        }
+                    ]
+                },
+                {
+                    "id": 42203,
+                    "name": "SIĞIRCI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48648,
+                            "name": "SIĞIRCI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42203
+                        }
+                    ]
+                },
+                {
+                    "id": 42118,
+                    "name": "ŞİNGAH MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48555,
+                            "name": "BAYBURT MİLLİ İRADE ANADOLU LİSESİ",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42118
+                        },
+                        {
+                            "id": 48556,
+                            "name": "FATİH ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42118
+                        },
+                        {
+                            "id": 48557,
+                            "name": "ŞEHİT HAMİT ŞAHİN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42118
+                        }
+                    ]
+                },
+                {
+                    "id": 42187,
+                    "name": "SIRAKAYALAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 144624,
+                            "name": "SIRAKAYALAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42187
+                        }
+                    ]
+                },
+                {
+                    "id": 42115,
+                    "name": "SOĞUKGÖZE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48552,
+                            "name": "SOĞUKGÖZE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42115
+                        }
+                    ]
+                },
+                {
+                    "id": 42180,
+                    "name": "SÖĞÜTLÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48622,
+                            "name": "SÖĞÜTLÜ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42180
+                        }
+                    ]
+                },
+                {
+                    "id": 42195,
+                    "name": "TAHT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48638,
+                            "name": "TAHT İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42195
+                        }
+                    ]
+                },
+                {
+                    "id": 42193,
+                    "name": "TAŞBURUN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48636,
+                            "name": "TAŞBURUN KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42193
+                        }
+                    ]
+                },
+                {
+                    "id": 42188,
+                    "name": "TAŞÇILAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48630,
+                            "name": "TAŞÇILAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42188
+                        }
+                    ]
+                },
+                {
+                    "id": 42124,
+                    "name": "TAŞKESEN KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48563,
+                            "name": "TAŞKESEN İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42124
+                        }
+                    ]
+                },
+                {
+                    "id": 42108,
+                    "name": "TAŞOCAĞI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48545,
+                            "name": "TAŞOCAĞI ŞEHİT TACETTİN AKYÜZ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42108
+                        }
+                    ]
+                },
+                {
+                    "id": 42087,
+                    "name": "TEPETARLA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48523,
+                            "name": "TEPETARLA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42087
+                        }
+                    ]
+                },
+                {
+                    "id": 42168,
+                    "name": "TOMLACIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48610,
+                            "name": "TOMLACIK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42168
+                        }
+                    ]
+                },
+                {
+                    "id": 42070,
+                    "name": "TUZCUZADE MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48504,
+                            "name": "BAYBURT ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42070
+                        },
+                        {
+                            "id": 48505,
+                            "name": "CUMHURİYET İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42070
+                        }
+                    ]
+                },
+                {
+                    "id": 42116,
+                    "name": "UĞRAK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48553,
+                            "name": "UĞRAK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42116
+                        }
+                    ]
+                },
+                {
+                    "id": 42132,
+                    "name": "UĞURGELDİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48573,
+                            "name": "UĞURGELDİ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42132
+                        }
+                    ]
+                },
+                {
+                    "id": 42152,
+                    "name": "ULUÇAYIR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48593,
+                            "name": "ULUÇAYIR-GÜNLÜCE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42152
+                        },
+                        {
+                            "id": 48594,
+                            "name": "ULUÇAYIR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42152
+                        }
+                    ]
+                },
+                {
+                    "id": 42105,
+                    "name": "ÜZENGİLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48542,
+                            "name": "ÜZENGİLİ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42105
+                        }
+                    ]
+                },
+                {
+                    "id": 42102,
+                    "name": "UZUNGAZİ MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 161903,
+                            "name": "ŞAİR ZİHNİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42102
+                        }
+                    ]
+                },
+                {
+                    "id": 42117,
+                    "name": "VELİŞABAN MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48554,
+                            "name": "21 ŞUBAT KURTULUŞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42117
+                        }
+                    ]
+                },
+                {
+                    "id": 42104,
+                    "name": "VEYSEL MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48541,
+                            "name": "VEYSEL EFENDİ İMAM HATİP ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42104
+                        }
+                    ]
+                },
+                {
+                    "id": 42154,
+                    "name": "YANIKÇAM KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48596,
+                            "name": "YANIKÇAM KÖYÜ KÖY KONAĞI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42154
+                        }
+                    ]
+                },
+                {
+                    "id": 42082,
+                    "name": "YAYLALAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48518,
+                            "name": "YAYLALAR KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42082
+                        }
+                    ]
+                },
+                {
+                    "id": 42137,
+                    "name": "YAYLAPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48578,
+                            "name": "YAYLAPINAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42137
+                        }
+                    ]
+                },
+                {
+                    "id": 42088,
+                    "name": "YAZYURDU KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48524,
+                            "name": "YAZYURDU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42088
+                        }
+                    ]
+                },
+                {
+                    "id": 42083,
+                    "name": "YEDİGÖZE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48519,
+                            "name": "YEDİGÖZE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42083
+                        }
+                    ]
+                },
+                {
+                    "id": 42125,
+                    "name": "YENİKÖY",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48564,
+                            "name": "YENİKÖY KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42125
+                        }
+                    ]
+                },
+                {
+                    "id": 42204,
+                    "name": "YERLİCE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48649,
+                            "name": "YERLİCE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42204
+                        }
+                    ]
+                },
+                {
+                    "id": 42201,
+                    "name": "YEŞİLYURT KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48645,
+                            "name": "YEŞİLYURT İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42201
+                        },
+                        {
+                            "id": 48646,
+                            "name": "YEŞİLYURT-KURCAKOL KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42201
+                        }
+                    ]
+                },
+                {
+                    "id": 42094,
+                    "name": "YOLALTI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48530,
+                            "name": "YOLALTI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42094
+                        }
+                    ]
+                },
+                {
+                    "id": 42200,
+                    "name": "YONCALI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48644,
+                            "name": "YONCALI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42200
+                        }
+                    ]
+                },
+                {
+                    "id": 42155,
+                    "name": "YUKARIKIŞLAK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48597,
+                            "name": "YUKARI KIŞLAK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42155
+                        }
+                    ]
+                },
+                {
+                    "id": 42126,
+                    "name": "ZAHİT MAH.",
+                    "city_id": 65,
+                    "district_id": 819,
+                    "schools": [
+                        {
+                            "id": 48565,
+                            "name": "ATATÜRK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42126
+                        },
+                        {
+                            "id": 48566,
+                            "name": "BAYBURT FEN LİSESİ",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42126
+                        },
+                        {
+                            "id": 48567,
+                            "name": "ŞEHİT RECEP EŞİYOK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42126
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 820,
+            "name": "DEMİRÖZÜ",
+            "city_id": 65,
+            "neighborhoods": [
+                {
+                    "id": 42216,
+                    "name": "AKYAKA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48661,
+                            "name": "AKYAKA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42216
+                        }
+                    ]
+                },
+                {
+                    "id": 42234,
+                    "name": "BAYRAMPAŞA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48679,
+                            "name": "BAYRAMPAŞA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42234
+                        }
+                    ]
+                },
+                {
+                    "id": 42220,
+                    "name": "BEŞPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48665,
+                            "name": "BEŞPINAR ŞEHİT GÜRCAN YAVUZ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42220
+                        }
+                    ]
+                },
+                {
+                    "id": 42223,
+                    "name": "ÇAĞILLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48668,
+                            "name": "ÇAĞILLI KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42223
+                        }
+                    ]
+                },
+                {
+                    "id": 42206,
+                    "name": "ÇAKIRÖZÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48651,
+                            "name": "ÇAKIRÖZÜ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42206
+                        }
+                    ]
+                },
+                {
+                    "id": 42215,
+                    "name": "ÇATALÇEŞME KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48660,
+                            "name": "ÇATALÇEŞME İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42215
+                        }
+                    ]
+                },
+                {
+                    "id": 42219,
+                    "name": "ÇİFTETAŞ MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48664,
+                            "name": "ÇİFTETAŞ MAHALLE ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42219
+                        }
+                    ]
+                },
+                {
+                    "id": 42231,
+                    "name": "ÇİMENTEPE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48676,
+                            "name": "ÇİMENTEPE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42231
+                        }
+                    ]
+                },
+                {
+                    "id": 42225,
+                    "name": "DAMLICA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48670,
+                            "name": "DAMLICA İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42225
+                        }
+                    ]
+                },
+                {
+                    "id": 42237,
+                    "name": "DEVETAŞI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48682,
+                            "name": "DEVETAŞI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42237
+                        }
+                    ]
+                },
+                {
+                    "id": 42232,
+                    "name": "DİKMETAŞ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48677,
+                            "name": "DİKMETAŞ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42232
+                        }
+                    ]
+                },
+                {
+                    "id": 42217,
+                    "name": "ELMALI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48662,
+                            "name": "ELMALI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42217
+                        }
+                    ]
+                },
+                {
+                    "id": 42211,
+                    "name": "ESENTEPE MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 143666,
+                            "name": "HÜSEYİN NUSRET RESUL BEYLER İMAM HATİP ORTAOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42211
+                        }
+                    ]
+                },
+                {
+                    "id": 42207,
+                    "name": "EYMÜR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48652,
+                            "name": "EYMÜR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42207
+                        }
+                    ]
+                },
+                {
+                    "id": 42221,
+                    "name": "GÖKÇEDERE-KARŞIYAKA MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48666,
+                            "name": "GÖKÇEDERE ÇOK PROGRAMLI ANADOLU LİSESİ",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42221
+                        }
+                    ]
+                },
+                {
+                    "id": 42210,
+                    "name": "GÖKÇEDERE-PINARBAŞI MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48655,
+                            "name": "GÖKÇEDERE İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42210
+                        }
+                    ]
+                },
+                {
+                    "id": 42235,
+                    "name": "GÖKÇEDERE-YEŞİLYURT MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48680,
+                            "name": "GÖKÇEDERE ÇOK PROGRAMLI ANADOLU LİSESİ",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42235
+                        }
+                    ]
+                },
+                {
+                    "id": 42208,
+                    "name": "GÜÇLÜ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48653,
+                            "name": "GÜÇLÜ KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42208
+                        }
+                    ]
+                },
+                {
+                    "id": 42226,
+                    "name": "GÜNEŞLİ MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 143505,
+                            "name": "GÜNEŞLİ MAHALLE KONAĞI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42226
+                        }
+                    ]
+                },
+                {
+                    "id": 42212,
+                    "name": "GÜVERCİNDERE KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48657,
+                            "name": "GÜVERCİNDERE KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42212
+                        }
+                    ]
+                },
+                {
+                    "id": 42236,
+                    "name": "IŞIKOVA KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48681,
+                            "name": "IŞIKOVA KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42236
+                        }
+                    ]
+                },
+                {
+                    "id": 42209,
+                    "name": "KALECİK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48654,
+                            "name": "KALECİK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42209
+                        }
+                    ]
+                },
+                {
+                    "id": 42233,
+                    "name": "KARAYAŞMAK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48678,
+                            "name": "KARAYAŞMAK KÖY ODASI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42233
+                        }
+                    ]
+                },
+                {
+                    "id": 42222,
+                    "name": "KAVAKLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48667,
+                            "name": "KAVAKLI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42222
+                        }
+                    ]
+                },
+                {
+                    "id": 42213,
+                    "name": "OTLUKBELİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 144721,
+                            "name": "OTLUKBELİ OKUL LOJMANI",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42213
+                        }
+                    ]
+                },
+                {
+                    "id": 42227,
+                    "name": "PETEKLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48672,
+                            "name": "PETEKLİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42227
+                        }
+                    ]
+                },
+                {
+                    "id": 42214,
+                    "name": "PINARCIK KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48659,
+                            "name": "PINARCIK İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42214
+                        }
+                    ]
+                },
+                {
+                    "id": 42228,
+                    "name": "SERENLİ KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48673,
+                            "name": "SERENLİ İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42228
+                        }
+                    ]
+                },
+                {
+                    "id": 42224,
+                    "name": "ŞİRİN MAH.",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48669,
+                            "name": "MUSTAFA KÖSEOĞLU ÇOK PROGRAMLI ANADOLU LİSESİ",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42224
+                        }
+                    ]
+                },
+                {
+                    "id": 42218,
+                    "name": "YAKUPABDAL KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48663,
+                            "name": "YAKUPABDAL İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42218
+                        }
+                    ]
+                },
+                {
+                    "id": 42229,
+                    "name": "YAZIBAŞI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48674,
+                            "name": "YAZIBAŞI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42229
+                        }
+                    ]
+                },
+                {
+                    "id": 42230,
+                    "name": "YELPINAR KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48675,
+                            "name": "YELPINAR İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42230
+                        }
+                    ]
+                },
+                {
+                    "id": 42205,
+                    "name": "YUKARIPINARLI KÖYÜ",
+                    "city_id": 65,
+                    "district_id": 820,
+                    "schools": [
+                        {
+                            "id": 48650,
+                            "name": "YUKARIPINARLI İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 820,
+                            "neighborhood_id": 42205
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

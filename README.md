@@ -13,7 +13,9 @@ pip install - requirements.txt
 # Run
 ```console
 python main.py
-Enter city plate: 57
+Enter city plate: 69
+# 69 is the plate of Bayburt
+# Check sample/BAYBURT.json for sample output
 ```
 
 # Notes
