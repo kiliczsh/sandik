@@ -239,7 +239,11 @@ async def main():
     with open("cities.json", "r", encoding="utf-8") as f:
         cities_json = json.load(f)
 
-    city_plate = int(input("Enter city plate: "))
+    city_plate = input("Enter city plate: ")
+
+    if not city_plate.isdigit():
+        print("Error: city plate must be a number")
+        exit(1)
 
     if city_plate not in cities_json:
         print("Error: city not found")
