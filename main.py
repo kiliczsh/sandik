@@ -1,28 +1,56 @@
+from __future__ import annotations
+
+import asyncio
 import json
-import time
+import logging
+import os
 from dataclasses import dataclass
-from enum import Enum
 
-import requests
+import aiohttp
 
-SLEEP_TIME = 1
+MAX_RETRIES = 20
 
 
-class AreaType(Enum):
-    CITY = 1
-    DISTRICT = 2
-    NEIGHBORHOOD = 3
-    SCHOOL = 4
-    SANDIK = 5
+logging.basicConfig(level=logging.DEBUG if os.environ.get("DEBUG") else logging.INFO)
+
+
+class RemoteEntity:
+    def __init__(self, session) -> None:
+        self.session = session
+
+    async def fetch(self, url) -> list[dict]:
+        try_no = 0
+        while try_no < MAX_RETRIES:
+            try:
+                logging.debug("Sending request to %s (try: %s)", url, try_no)
+                async with self.session.get(url, raise_for_status=True) as response:
+                    logging.debug("%s finished with status %s", url, response.status)
+                    return await response.json()
+            except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError) as e:
+                if (
+                    isinstance(e, aiohttp.ClientConnectorError)
+                    or e.status == 429
+                    or e.status == 500
+                ):
+                    logging.info(
+                        "Sleeping before retry for %s (try: %s)...", url, try_no
+                    )
+                    await asyncio.sleep(0.1 * 2**try_no)
+                else:
+                    logging.error("%s failed with code %s", url, e.status)
+                    raise e
+            try_no += 1
+        raise RuntimeError(f"Max retries reached for {url}: {try_no}")
 
 
 @dataclass
-class School:
+class School(RemoteEntity):
     id: int
     name: str
     neighborhood_id: int
 
-    def __init__(self, id, name, city_id, district_id, neighborhood_id):
+    def __init__(self, session, id, name, city_id, district_id, neighborhood_id):
+        super().__init__(session)
         self.id = id
         self.name = name
         self.city_id = city_id
@@ -43,35 +71,38 @@ class School:
 
 
 @dataclass
-class Neighborhood:
+class Neighborhood(RemoteEntity):
     id: int
     name: str
     city_id: int
     district_id: int
     schools: list[School]
 
-    def __init__(self, id, name, city_id, district_id):
+    @property
+    def schools_url(self):
+        return f"https://api-sonuc.oyveotesi.org/api/v1/cities/{self.city_id}/districts/{self.district_id}/neighborhoods/{self.id}/schools"
+
+    def __init__(self, session, id, name, city_id, district_id):
+        super().__init__(session)
         self.id = id
         self.name = name
         self.city_id = city_id
         self.district_id = district_id
         self.schools = []
-        schools = send_request(
-            AreaType.SCHOOL,
-            city_id=self.city_id,
-            district_id=self.district_id,
-            neighborhood_id=self.id,
-        )
-        for school in schools:
-            self.schools.append(
-                School(
-                    id=school["id"],
-                    name=school["name"],
-                    city_id=self.city_id,
-                    district_id=self.district_id,
-                    neighborhood_id=self.id,
-                )
+
+    async def download(self) -> Neighborhood:
+        self.schools = [
+            School(
+                self.session,
+                id=school["id"],
+                name=school["name"],
+                city_id=self.city_id,
+                district_id=self.district_id,
+                neighborhood_id=self.id,
             )
+            for school in await self.fetch(self.schools_url)
+        ]
+        return self
 
     def to_dict(self):
         return {
@@ -87,29 +118,37 @@ class Neighborhood:
 
 
 @dataclass
-class District:
+class District(RemoteEntity):
     id: int
     name: str
     city_id: int
     neighborhoods: list[Neighborhood]
 
-    def __init__(self, id, name, city_id):
+    @property
+    def neighborhoods_url(self):
+        return f"https://api-sonuc.oyveotesi.org/api/v1/cities/{self.city_id}/districts/{self.id}/neighborhoods"
+
+    def __init__(self, session, id, name, city_id):
+        super().__init__(session)
         self.id = id
         self.name = name
         self.city_id = city_id
         self.neighborhoods = []
-        neighborhoods = send_request(
-            AreaType.NEIGHBORHOOD, city_id=self.city_id, district_id=self.id
-        )
-        for neighborhood in neighborhoods:
-            self.neighborhoods.append(
+
+    async def download(self) -> District:
+        self.neighborhoods = await asyncio.gather(
+            *(
                 Neighborhood(
+                    self.session,
                     id=neighborhood["id"],
                     name=neighborhood["name"],
                     city_id=self.city_id,
                     district_id=self.id,
-                )
+                ).download()
+                for neighborhood in await self.fetch(self.neighborhoods_url)
             )
+        )
+        return self
 
     def to_dict(self):
         return {
@@ -122,26 +161,40 @@ class District:
         }
 
     def __str__(self):
-        return f"{self.id} - {self.name} - {self.neighborhoods.count()}"
+        return f"{self.id} - {self.name} - {len(self.neighborhoods)}"
 
 
 @dataclass
-class City:
+class City(RemoteEntity):
     id: int
     name: str
     plate: int
     districts: list[District]
 
-    def __init__(self, id, name, plate):
+    @property
+    def districts_url(self):
+        return f"https://api-sonuc.oyveotesi.org/api/v1/cities/{self.id}/districts"
+
+    def __init__(self, session, id, name, plate):
+        super().__init__(session)
         self.id = id
         self.name = name
         self.plate = plate
         self.districts = []
-        districts = send_request(AreaType.DISTRICT, city_id=self.id)
-        for district in districts:
-            self.districts.append(
-                District(id=district["id"], name=district["name"], city_id=self.id)
+
+    async def download(self) -> City:
+        self.districts = await asyncio.gather(
+            *(
+                District(
+                    self.session,
+                    id=district["id"],
+                    name=district["name"],
+                    city_id=self.id,
+                ).download()
+                for district in await self.fetch(self.districts_url)
             )
+        )
+        return self
 
     def to_dict(self):
         return {
@@ -152,49 +205,11 @@ class City:
         }
 
     def __str__(self):
-        return f"{self.id} - {self.name} - {self.plate} - {self.districts.count()}"
+        return f"{self.id} - {self.name} - {self.plate} - {len(self.districts)}"
 
 
-def send_request(type, city_id=0, district_id=0, neighborhood_id=0, school_id=0):
-    CITIES_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities"
-    DISTRICTS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities/{city_id}/districts"
-    NEIGHBORHOODS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities/{city_id}/districts/{district_id}/neighborhoods"
-    SCHOOLS_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities/{city_id}/districts/{district_id}/neighborhoods/{neighborhood_id}/schools"
-
-    if type == AreaType.CITY:
-        url = CITIES_URL
-    elif type == AreaType.DISTRICT:
-        url = DISTRICTS_URL
-    elif type == AreaType.NEIGHBORHOOD:
-        url = NEIGHBORHOODS_URL
-    elif type == AreaType.SCHOOL:
-        url = SCHOOLS_URL
-    else:
-        print("Error: type is not valid")
-        exit(1)
-
-    try:
-        time.sleep(SLEEP_TIME)
-        print(f"Sending request to {url}")
-        response = requests.get(
-            url=url,
-            headers={
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36"
-            },
-        )
-        print(
-            "Response HTTP Status Code: {status_code}".format(
-                status_code=response.status_code
-            )
-        )
-        return response.json()
-    except requests.exceptions.RequestException:
-        print("HTTP Request failed")
-        return []
-
-
-def gather_all():
-    cities = get_cities()
+async def gather_all(session):
+    cities = await get_cities(session)
     print_cities(cities)
     print("Gathered all cities")
 
@@ -206,39 +221,48 @@ def print_cities(cities):
         json.dump(cities_dict, f, ensure_ascii=False, indent=4)
 
 
-def get_cities():
+async def get_cities(session):
     with open("cities.json", "r", encoding="utf-8") as f:
         cities_json = json.load(f)
 
-    cities = [
-        City(id=city["id"], name=city["name"], plate=city["plate"])
-        for city in cities_json
-    ]
+    cities = await asyncio.gather(
+        *(
+            City(session, id=city["id"], name=city["name"], plate=plate).download()
+            for plate, city in cities_json.items()
+        )
+    )
 
     return cities
 
 
-if __name__ == "__main__":
+async def main():
     with open("cities.json", "r", encoding="utf-8") as f:
         cities_json = json.load(f)
 
     city_plate = int(input("Enter city plate: "))
 
-    city = None
-    for city_json in cities_json:
-        if city_json["plate"] == city_plate:
-            city = City(
-                id=city_json["id"], name=city_json["name"], plate=city_json["plate"]
-            )
-            break
-
-    if city is None:
+    if city_plate not in cities_json:
         print("Error: city not found")
         exit(1)
+
+    city_data = cities_json[city_plate]
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0"
+    }
+    async with aiohttp.ClientSession(headers=headers) as session:
+        city = await City(
+            session, id=city_data["id"], name=city_data["name"], plate=int(city_plate)
+        ).download()
 
     filename = f"{city.name}.json"
     with open(filename, "w", encoding="utf-8") as f:
         json.dump(city.to_dict(), f, ensure_ascii=False, indent=4)
+
     print(f"Wrote to {filename}")
 
     print(f"Gathered city {city.name}")
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
