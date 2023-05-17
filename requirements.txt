@@ -1,2 +1,3 @@
 pypdfium2
 requests
+aiohttp[speedups]

@@ -1833,7 +1833,15 @@
                     "name": "OZANSU KÖYÜ",
                     "city_id": 65,
                     "district_id": 819,
-                    "schools": []
+                    "schools": [
+                        {
+                            "id": 48627,
+                            "name": "OZANSU İLKOKULU",
+                            "city_id": 65,
+                            "district_id": 819,
+                            "neighborhood_id": 42185
+                        }
+                    ]
                 },
                 {
                     "id": 42146,
