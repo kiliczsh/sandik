@@ -38,12 +38,15 @@ class RemoteEntity:
                     await asyncio.sleep(0.1 * 2**try_no)
                 elif isinstance(e, aiohttp.ClientResponseError):
                     logging.error("%s failed with code %s", url, e.status)
-                    raise e
+                    if e.status == 520:
+                        raise RuntimeError("Cloudflare error message indicating that the origin web server received an invalid or incorrectly interpreted request, resulting in an empty response.")
+                    return []
                 else:
                     logging.error("%s failed with generic error", url, e)
-                    raise e
+                    return []
             try_no += 1
-        raise RuntimeError(f"Max retries reached for {url}: {try_no}")
+        logging.error("Max retries reached for %s: %s", url, try_no)
+        return []
 
 
 @dataclass
