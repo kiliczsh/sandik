@@ -26,7 +26,7 @@ class RemoteEntity:
                 async with self.session.get(url, raise_for_status=True) as response:
                     logging.debug("%s finished with status %s", url, response.status)
                     return await response.json()
-            except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError) as e:
+            except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError, aiohttp.ServerDisconnectedError) as e:
                 if (
                     isinstance(e, aiohttp.ClientConnectorError)
                     or e.status == 429
@@ -36,8 +36,11 @@ class RemoteEntity:
                         "Sleeping before retry for %s (try: %s)...", url, try_no
                     )
                     await asyncio.sleep(0.1 * 2**try_no)
-                else:
+                elif isinstance(e, aiohttp.ClientResponseError):
                     logging.error("%s failed with code %s", url, e.status)
+                    raise e
+                else:
+                    logging.error("%s failed with generic error", url, e)
                     raise e
             try_no += 1
         raise RuntimeError(f"Max retries reached for {url}: {try_no}")
