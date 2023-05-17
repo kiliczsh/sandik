@@ -1,17 +1,18 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 import asyncio
-import aiohttp
 import json
 import logging
 import os
+from dataclasses import dataclass
 
+import aiohttp
 
 MAX_RETRIES = 20
 
 
-logging.basicConfig(level=logging.DEBUG if os.environ.get('DEBUG') else logging.INFO)
+logging.basicConfig(level=logging.DEBUG if os.environ.get("DEBUG") else logging.INFO)
+
 
 class RemoteEntity:
     def __init__(self, session) -> None:
@@ -26,8 +27,14 @@ class RemoteEntity:
                     logging.debug("%s finished with status %s", url, response.status)
                     return await response.json()
             except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError) as e:
-                if isinstance(e, aiohttp.ClientConnectorError) or e.status == 429 or e.status == 500:
-                    logging.info("Sleeping before retry for %s (try: %s)...", url, try_no)
+                if (
+                    isinstance(e, aiohttp.ClientConnectorError)
+                    or e.status == 429
+                    or e.status == 500
+                ):
+                    logging.info(
+                        "Sleeping before retry for %s (try: %s)...", url, try_no
+                    )
                     await asyncio.sleep(0.1 * 2**try_no)
                 else:
                     logging.error("%s failed with code %s", url, e.status)
@@ -56,11 +63,12 @@ class School(RemoteEntity):
             "name": self.name,
             "city_id": self.city_id,
             "district_id": self.district_id,
-            "neighborhood_id": self.neighborhood_id
+            "neighborhood_id": self.neighborhood_id,
         }
 
     def __str__(self):
         return f"{self.id} - {self.name} - {self.city_id} - {self.district_id} - {self.neighborhood_id}"
+
 
 @dataclass
 class Neighborhood(RemoteEntity):
@@ -84,7 +92,14 @@ class Neighborhood(RemoteEntity):
 
     async def download(self) -> Neighborhood:
         self.schools = [
-            School(self.session, id=school["id"], name=school["name"], city_id=self.city_id, district_id=self.district_id, neighborhood_id=self.id)
+            School(
+                self.session,
+                id=school["id"],
+                name=school["name"],
+                city_id=self.city_id,
+                district_id=self.district_id,
+                neighborhood_id=self.id,
+            )
             for school in await self.fetch(self.schools_url)
         ]
         return self
@@ -95,7 +110,7 @@ class Neighborhood(RemoteEntity):
             "name": self.name,
             "city_id": self.city_id,
             "district_id": self.district_id,
-            "schools": [school.to_dict() for school in self.schools]
+            "schools": [school.to_dict() for school in self.schools],
         }
 
     def __str__(self):
@@ -122,8 +137,16 @@ class District(RemoteEntity):
 
     async def download(self) -> District:
         self.neighborhoods = await asyncio.gather(
-            *(Neighborhood(self.session, id=neighborhood["id"], name=neighborhood["name"], city_id=self.city_id, district_id=self.id).download()
-            for neighborhood in await self.fetch(self.neighborhoods_url))
+            *(
+                Neighborhood(
+                    self.session,
+                    id=neighborhood["id"],
+                    name=neighborhood["name"],
+                    city_id=self.city_id,
+                    district_id=self.id,
+                ).download()
+                for neighborhood in await self.fetch(self.neighborhoods_url)
+            )
         )
         return self
 
@@ -132,7 +155,9 @@ class District(RemoteEntity):
             "id": self.id,
             "name": self.name,
             "city_id": self.city_id,
-            "neighborhoods": [neighborhood.to_dict() for neighborhood in self.neighborhoods]
+            "neighborhoods": [
+                neighborhood.to_dict() for neighborhood in self.neighborhoods
+            ],
         }
 
     def __str__(self):
@@ -159,8 +184,15 @@ class City(RemoteEntity):
 
     async def download(self) -> City:
         self.districts = await asyncio.gather(
-            *(District(self.session, id=district["id"], name=district["name"], city_id=self.id).download()
-            for district in await self.fetch(self.districts_url))
+            *(
+                District(
+                    self.session,
+                    id=district["id"],
+                    name=district["name"],
+                    city_id=self.id,
+                ).download()
+                for district in await self.fetch(self.districts_url)
+            )
         )
         return self
 
@@ -169,7 +201,7 @@ class City(RemoteEntity):
             "id": self.id,
             "name": self.name,
             "plate": self.plate,
-            "districts": [district.to_dict() for district in self.districts]
+            "districts": [district.to_dict() for district in self.districts],
         }
 
     def __str__(self):
@@ -180,6 +212,7 @@ async def gather_all(session):
     cities = await get_cities(session)
     print_cities(cities)
     print("Gathered all cities")
+
 
 def print_cities(cities):
     cities_dict = [city.to_dict() for city in cities]
@@ -192,10 +225,12 @@ async def get_cities(session):
     with open("cities.json", "r", encoding="utf-8") as f:
         cities_json = json.load(f)
 
-    cities = await asyncio.gather(*(
-        City(session, id=city["id"], name=city["name"], plate=plate).download()
-        for plate, city in cities_json.items()
-    ))
+    cities = await asyncio.gather(
+        *(
+            City(session, id=city["id"], name=city["name"], plate=plate).download()
+            for plate, city in cities_json.items()
+        )
+    )
 
     return cities
 
@@ -204,7 +239,7 @@ async def main():
     with open("cities.json", "r", encoding="utf-8") as f:
         cities_json = json.load(f)
 
-    city_plate = input("Enter city plate: ")
+    city_plate = int(input("Enter city plate: "))
 
     if city_plate not in cities_json:
         print("Error: city not found")
@@ -212,9 +247,13 @@ async def main():
 
     city_data = cities_json[city_plate]
 
-    headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0"
+    }
     async with aiohttp.ClientSession(headers=headers) as session:
-        city = await City(session, id=city_data["id"], name=city_data["name"], plate=int(city_plate)).download()
+        city = await City(
+            session, id=city_data["id"], name=city_data["name"], plate=int(city_plate)
+        ).download()
 
     filename = f"{city.name}.json"
     with open(filename, "w", encoding="utf-8") as f:
@@ -224,13 +263,6 @@ async def main():
 
     print(f"Gathered city {city.name}")
 
+
 if __name__ == "__main__":
-  asyncio.run(main())
-
-"""
-CITIES_URL = f"https://api-sonuc.oyveotesi.org/api/v1/cities"
-
-    if type == AreaType.CITY:
-        url = CITIES_URL
-
-"""
+    asyncio.run(main())

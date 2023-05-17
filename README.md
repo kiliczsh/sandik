@@ -26,6 +26,12 @@ python tutanak.py
 Enter school id: 184742
 # 184742 is the id of the school
 # Check sample/school_184742.json for sample output
+
+# To get bulk results
+
+python bulk_tutanak.py
+Enter city json path: ANTALYA.json
+# In this case, results will be written to data/7/school_{30535, 30529, 30540, ...}.json
 ```
 
 # Notes
