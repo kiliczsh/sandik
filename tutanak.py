@@ -32,9 +32,8 @@ def send_request(school_id):
     try:
         time.sleep(SLEEP_TIME)
         print(f"Sending request to {SANDIKS_URL}")
-        response = requests.get(
-            url=SANDIKS_URL,
-        )
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0"}
+        response = requests.get(url=SANDIKS_URL, headers=headers)
         print('Response HTTP Status Code: {status_code}'.format(
             status_code=response.status_code))
         return response.json()
