@@ -29,6 +29,7 @@ class RemoteEntity:
             except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError, aiohttp.ServerDisconnectedError) as e:
                 if (
                     isinstance(e, aiohttp.ClientConnectorError)
+                    or isinstance(e, aiohttp.ServerDisconnectedError)
                     or e.status == 429
                     or e.status == 500
                 ):
