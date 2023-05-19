@@ -29,6 +29,7 @@ class RemoteEntity:
             except (aiohttp.ClientResponseError, aiohttp.ClientConnectorError, aiohttp.ServerDisconnectedError) as e:
                 if (
                     isinstance(e, aiohttp.ClientConnectorError)
+                    or isinstance(e, aiohttp.ServerDisconnectedError)
                     or e.status == 429
                     or e.status == 500
                 ):
@@ -40,7 +41,7 @@ class RemoteEntity:
                     logging.error("%s failed with code %s", url, e.status)
                     raise e
                 else:
-                    logging.error("%s failed with generic error", url, e)
+                    logging.error("%s failed with generic error %s", url, e)
                     raise e
             try_no += 1
         raise RuntimeError(f"Max retries reached for {url}: {try_no}")
